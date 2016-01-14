@@ -35,3 +35,41 @@ C:\Users\Iskander\Documents\Visual Studio 2013\Projects\ChatClientWPF\ChatClient
 C:\Users\Iskander\Documents\Visual Studio 2013\Projects\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\Iskander\Documents\Visual Studio 2013\Projects\ChatClientWPF\ChatClientWPF\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Iskander\Documents\Visual Studio 2013\Projects\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF_Content.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\ChatClientWPF.exe.config
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.exe
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.pdb
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\ChatClientWPF.exe
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\ChatClientWPF.pdb
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Owin.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\WpfAnimatedGif.dll
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\bin\Debug\WpfAnimatedGif.xml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\App.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF_Content.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF_MarkupCompile.cache
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.g.resources
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.Properties.Resources.resources
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.csproj.GenerateResource.Cache
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatWindow.baml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatWindow.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF_MarkupCompile.lref

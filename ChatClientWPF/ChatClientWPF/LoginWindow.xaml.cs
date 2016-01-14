@@ -33,54 +33,63 @@ namespace ChatClientWPF
        static public HubConnection connection;
        static public IHubProxy myHub;
        Chat chatwindow;
+       User user;
+       
         public MainWindow()
         {
             InitializeComponent();
             connection = new HubConnection(@"http://iskenxan-001-site1.btempurl.com/signalr");
             myHub = connection.CreateHubProxy("ChatHub");
-
+             user = new User();
+            UserNameTextBox.Focus();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string username = UserNameTextBox.Text;
-            LoginProgress.Visibility = Visibility.Visible;
-
-            Thread connectT = new Thread(() =>
+           BindingExpression be = UserNameTextBox.GetBindingExpression(TextBox.TextProperty);
+           be.UpdateSource();
+           string username = user.UserName;
+            if (!String.IsNullOrEmpty(username))
+            {
+              LoginProgress.Visibility = Visibility.Visible;
+                Thread connectT = new Thread(() =>
                 {
                     try
-              {
-                         connection.Start().Wait();
-                      if (connection.State == Microsoft.AspNet.SignalR.Client.ConnectionState.Connected)
                     {
-                        Application.Current.Dispatcher.BeginInvoke(
-                                new Action(() =>
-                                {
-                                    chatwindow = new Chat(username);
-                                    this.Close();
-                                    chatwindow.ShowDialog();
-                                })
-                                );
+                        connection.Start().Wait();
+                        if (connection.State == Microsoft.AspNet.SignalR.Client.ConnectionState.Connected)
+                        {
+                            Application.Current.Dispatcher.BeginInvoke(
+                                    new Action(() =>
+                                    {
+                                        chatwindow = new Chat(username);
+                                        this.Close();
+                                        chatwindow.ShowDialog();
+                                    })
+                                    );
+                        }
+                        else
+                        {
+                            MessageBox.Show("Connection Failed");
+                            Dispatcher.BeginInvoke(new Action(() => this.Close()));
+                        }
                     }
-                    else
+
+                    catch (Exception)
                     {
                         MessageBox.Show("Connection Failed");
                         Dispatcher.BeginInvoke(new Action(() => this.Close()));
-                    }
-               }
 
-                    catch ( Exception)
-                    {
-                          MessageBox.Show("Connection Failed");
-                          Dispatcher.BeginInvoke(new Action(() => this.Close()));
-                          
                     }
                 });
 
-            connectT.SetApartmentState(ApartmentState.STA);
-            connectT.Start();
+                connectT.SetApartmentState(ApartmentState.STA);
+                connectT.Start();
+            }
+            else
+            {
 
-            
+            }
         }
 
     }
