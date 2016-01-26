@@ -40,15 +40,15 @@ namespace ChatClientWPF
             InitializeComponent();
             connection = new HubConnection(@"http://iskenxan-001-site1.btempurl.com/signalr");
             myHub = connection.CreateHubProxy("ChatHub");
-             user = new User();
             UserNameTextBox.Focus();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //This  Binding Expression instance triggers the ErrorValidationTemplate to show , since Update source trigger in the textbox that uses that ErrorTemplate is specified as explicit
            BindingExpression be = UserNameTextBox.GetBindingExpression(TextBox.TextProperty);
            be.UpdateSource();
-           string username = user.UserName;
+           string username = UserNameTextBox.Text;
             if (!String.IsNullOrEmpty(username))
             {
               LoginProgress.Visibility = Visibility.Visible;

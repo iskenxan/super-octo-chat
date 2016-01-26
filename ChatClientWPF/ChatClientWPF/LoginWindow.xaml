@@ -5,7 +5,7 @@
      xmlns:local="clr-namespace:ChatClientWPF"
         Title="MainWindow" Height="354.667" Width="525">
     <Window.Resources>
-        <local:User x:Key="UserInstance" UserName="Aiba" />
+        <local:User x:Key="UserInstance" UserName="" />
         <Style x:Key="ErrorTemplateStyle" TargetType="{x:Type TextBox}">
             <Style.Triggers>
                 <Trigger Property="Validation.HasError" Value="True">

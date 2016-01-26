@@ -73,3 +73,4 @@ C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\ob
 C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\LoginWindow.g.cs
 C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF_MarkupCompile.lref
+C:\Users\samatov\Documents\GitHub\super-octo-chat\ChatClientWPF\ChatClientWPF\obj\Debug\ChatClientWPF.csprojResolveAssemblyReference.cache

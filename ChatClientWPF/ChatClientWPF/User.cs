@@ -9,7 +9,7 @@ namespace ChatClientWPF
 {
     class User:IDataErrorInfo
     {
-        // This class serves to notify user when logging-in from LoginWindow when he tries to login with blank username
+        // This class serves to notify user logging-in from LoginWindow when he tries to login with blank username
         public string UserName { get; set; }
         public string Error { get; set; }
 
